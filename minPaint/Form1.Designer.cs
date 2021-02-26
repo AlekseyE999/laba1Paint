@@ -36,7 +36,6 @@ namespace minPaint
             this.rectangle = new System.Windows.Forms.Button();
             this.triangle = new System.Windows.Forms.Button();
             this.line = new System.Windows.Forms.Button();
-            this.lom = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.choice.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -44,7 +43,6 @@ namespace minPaint
             // 
             // choice
             // 
-            this.choice.Controls.Add(this.lom);
             this.choice.Controls.Add(this.line);
             this.choice.Controls.Add(this.triangle);
             this.choice.Controls.Add(this.rectangle);
@@ -110,15 +108,6 @@ namespace minPaint
             this.line.Text = "линия";
             this.line.UseVisualStyleBackColor = true;
             // 
-            // lom
-            // 
-            this.lom.Location = new System.Drawing.Point(612, 22);
-            this.lom.Name = "lom";
-            this.lom.Size = new System.Drawing.Size(75, 23);
-            this.lom.TabIndex = 6;
-            this.lom.Text = "карандаш";
-            this.lom.UseVisualStyleBackColor = true;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(1, 71);
@@ -152,7 +141,6 @@ namespace minPaint
         private System.Windows.Forms.Button square;
         private System.Windows.Forms.Button ellipse;
         private System.Windows.Forms.Button circle;
-        private System.Windows.Forms.Button lom;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

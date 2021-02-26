@@ -8,5 +8,9 @@ namespace minPaint
 {
     class figures
     {
+        public void circle(double xCor, double yCor)
+        {
+
+        }
     }
 }
